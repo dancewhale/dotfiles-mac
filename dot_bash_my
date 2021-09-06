@@ -1,0 +1,15 @@
+# my personal bash setting.
+
+export PATH=$PATH:~/.local/bin
+export PLASMA_USE_QT_SCALING=1
+
+# fzf configure.
+source /usr/share/fzf/completion.bash 
+source /usr/share/fzf/key-bindings.bash
+
+# complete configure for cheat.
+export CHEAT_USE_FZF=true
+
+
+export HISTSIZE=100000
+export HISEFILESIZE=100000
