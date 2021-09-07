@@ -10,7 +10,7 @@ allow-wifi-access = false
 [Proxy]
 DIRECT = direct, test-url=http://www.baidu.com
 bwg = trojan, {{ (bitwardenFields "item" "trojan").serverbwg.value }}, 443, password={{ (bitwardenFields "item" "trojan").passbwg.value }}, skip-cert-verify=true, test-url=http://google.com.hk
-tripod = trojan, {{ (bitwardenFields "item" "trojan").servertripod.value }, 443, password={{ (bitwardenFields "item" "trojan").passtripod.value }}, skip-cert-verify=true, test-url=http://google.com.hk
+tripod = trojan, {{ (bitwardenFields "item" "trojan").servertripod.value }}, 443, password={{ (bitwardenFields "item" "trojan").passtripod.value }}, skip-cert-verify=true, test-url=http://google.com.hk
 
 [Proxy Group]
 ♻️ 故障切换 = fallback, bwg, no-alert=1, hidden=0

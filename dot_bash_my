@@ -3,9 +3,10 @@
 export PATH=$PATH:~/.local/bin
 export PLASMA_USE_QT_SCALING=1
 
+export TERM=xterm-24bit
 # fzf configure.
-source /usr/share/fzf/completion.bash 
-source /usr/share/fzf/key-bindings.bash
+source /usr/local/opt/fzf/shell/completion.bash 
+source /usr/local/opt/fzf/shell/key-bindings.bash
 
 # complete configure for cheat.
 export CHEAT_USE_FZF=true

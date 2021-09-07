@@ -5,7 +5,26 @@
         "Guid": "35E25353-C3DB-4DB0-A660-3D8BDF629AA3",
         "Dynamic Profile Parent Name": "Default",
         "Keyboard Map" : {
-
+			    "0x56-0x80000": {
+                    "Text": {
+						"ConvertUnicodePunctuation":true,
+						"WaitForPrompts":false,
+						"Substitution":"",
+						"EscapeForShell":false,
+						"Base64":false,
+						"TabStopSize":4,
+						"Delay":0.01,
+						"RemoveNewlines":false,
+						"Regex":"",
+						"ConvertNewlines":true,
+						"TabTransform":0,
+						"BracketAllowed":true,
+						"UseRegexSubstitution":false,
+						"ChunkSize":1024,
+						"RemoveControls":true
+					},
+                    "Action": 41
+                 },
                 "0x27-0x40000" : {
                     "Comment" : "C-'",
                     "Text" : "\\e[27;5;39~",
