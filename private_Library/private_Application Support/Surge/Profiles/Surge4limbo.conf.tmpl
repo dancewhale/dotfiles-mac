@@ -13,7 +13,7 @@ bwg = trojan, {{ (bitwardenFields "item" "trojan").serverbwg.value }}, 443, pass
 tripod = trojan, {{ (bitwardenFields "item" "trojan").servertripod.value }}, 443, password={{ (bitwardenFields "item" "trojan").passtripod.value }}, skip-cert-verify=true, test-url=http://google.com.hk
 
 [Proxy Group]
-♻️ 故障切换 = fallback, bwg, no-alert=1, hidden=0
+♻️ 故障切换 = url-test, bwg, tripod
 ✈️ 机场专线 = select, 🎥 其他国外流媒体, ♻️ 故障切换, DIRECT, no-alert=0, hidden=0
 🤖 谷歌分析 = select, 🎥 其他国外流媒体, ♻️ 故障切换, DIRECT, no-alert=0, hidden=0
 📲 社交媒体 = select, ♻️ 故障切换, 🎥 其他国外流媒体, DIRECT, no-alert=0, hidden=0
