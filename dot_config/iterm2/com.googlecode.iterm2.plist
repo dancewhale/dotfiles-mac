@@ -237,7 +237,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>1326 344 1018 447 1280 -89 1280 960 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>480 563 650 477 0 0 1920 1080 </string>
+	<string>0 512 1920 568 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 557 650 500 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -977,6 +977,20 @@
 					<integer>10</integer>
 					<key>Text</key>
 					<string>[1;5F</string>
+				</dict>
+				<key>0xf72c-0x0</key>
+				<dict>
+					<key>Action</key>
+					<integer>9</integer>
+					<key>Text</key>
+					<string></string>
+				</dict>
+				<key>0xf72d-0x0</key>
+				<dict>
+					<key>Action</key>
+					<integer>8</integer>
+					<key>Text</key>
+					<string></string>
 				</dict>
 				<key>0xf739-0x0</key>
 				<dict>
@@ -8515,9 +8529,13 @@
 	<key>NoSyncLastTipTime</key>
 	<real>496810993.027233</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>171</integer>
+	<integer>172</integer>
 	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
 	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>584432154.64255095</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
