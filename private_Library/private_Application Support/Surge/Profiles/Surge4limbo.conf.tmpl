@@ -11,9 +11,10 @@ allow-wifi-access = false
 DIRECT = direct, test-url=http://www.baidu.com
 bwg = trojan, {{ (bitwardenFields "item" "trojan").serverbwg.value }}, 443, password={{ (bitwardenFields "item" "trojan").passbwg.value }}, skip-cert-verify=true, test-url=http://google.com.hk
 tripod = trojan, {{ (bitwardenFields "item" "trojan").servertripod.value }}, 443, password={{ (bitwardenFields "item" "trojan").passtripod.value }}, skip-cert-verify=true, test-url=http://google.com.hk
+{{ (bitwarden "item" "glados").notes }},
 
 [Proxy Group]
-♻️ 故障切换 = url-test, bwg, tripod
+♻️ 故障切换 = url-test, bwg, tripod, GLaDOS-N2-00, GLaDOS-N2-01, GLaDOS-N2-02, GLaDOS-N2-03, GLaDOS-N2-04, GLaDOS-N2-05, GLaDOS-Portalgun-01, GLaDOS-Portalgun-02, GLaDOS-Portalgun-03, GLaDOS-Portalgun-04, GLaDOS-Portalgun-05, GLaDOS-Portalgun-06, GLaDOS-US-Netflix, GLaDOS-TW-Netflix, GLaDOS-HK-Netflix, GLaDOS-Railgun-00, GLaDOS-Railgun-01, GLaDOS-Railgun-02, GLaDOS-Railgun-03, GLaDOS-Railgun-04, GLaDOS-Railgun-05
 ✈️ 机场专线 = select, 🎥 其他国外流媒体, ♻️ 故障切换, DIRECT, no-alert=0, hidden=0
 🤖 谷歌分析 = select, 🎥 其他国外流媒体, ♻️ 故障切换, DIRECT, no-alert=0, hidden=0
 📲 社交媒体 = select, ♻️ 故障切换, 🎥 其他国外流媒体, DIRECT, no-alert=0, hidden=0
