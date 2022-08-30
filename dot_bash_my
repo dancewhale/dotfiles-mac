@@ -11,6 +11,11 @@ source /usr/local/opt/fzf/shell/key-bindings.bash
 # complete configure for cheat.
 export CHEAT_USE_FZF=true
 
+# setting navi
+eval "$(navi widget bash)"
+export NAVI_CONFIG="/Users/$(whoami)/.config/navi/config.yaml"
 
+# setting bash 
 export HISTSIZE=100000
 export HISEFILESIZE=100000
+
