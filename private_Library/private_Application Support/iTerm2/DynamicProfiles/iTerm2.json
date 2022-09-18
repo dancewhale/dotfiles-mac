@@ -2,6 +2,8 @@
     "Profiles": [
         {
         "Name": "xterm-keymap-profile",
+        "Normal Font": "Sarasa Mono SC Nerd 17",
+        "Non Ascii Font":  "Sarasa Mono SC Nerd 17",
         "Guid": "35E25353-C3DB-4DB0-A660-3D8BDF629AA3",
         "Dynamic Profile Parent Name": "Default",
 		"Shortcut": "E",

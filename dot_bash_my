@@ -13,6 +13,7 @@ export CHEAT_USE_FZF=true
 
 # setting navi
 eval "$(navi widget bash)"
+export NAVI_PATH="/Users/$(whoami)/.cheats"
 export NAVI_CONFIG="/Users/$(whoami)/.config/navi/config.yaml"
 
 # setting bash 
